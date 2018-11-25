@@ -3,13 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-package com.unmsm.decorator;
+package com.unmsm.component;
 
 /**
- * 
- * @author amartinez <amartinez@novatronic.com>
+ *
+ * @author USER
  */
-public class App {
-
+public class Espresso extends Beverage{
+    
+    public Espresso() {
+        description = "Espresso";
+        cost = 8.5F;
+    }
+    
 }
