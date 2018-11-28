@@ -9,6 +9,7 @@
         <module>strategy-patern</module>
         <module>observer-pull-pattern</module>
         <module>decorator-pattern</module>
+        <module>factory-method-pattern</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
