@@ -10,5 +10,7 @@ package com.unmsm.ingredient.chesse;
  * @author amartinez <amartinez@novatronic.com>
  */
 public interface Chesse {
-    
+    default String getName(){
+        return this.getClass().getSimpleName();
+    }
 }

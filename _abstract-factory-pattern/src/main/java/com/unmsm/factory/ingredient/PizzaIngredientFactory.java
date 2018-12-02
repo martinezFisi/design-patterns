@@ -8,6 +8,7 @@ package com.unmsm.factory.ingredient;
 
 import com.unmsm.ingredient.chesse.Chesse;
 import com.unmsm.ingredient.dough.Dough;
+import com.unmsm.ingredient.pepperoni.Pepperoni;
 import com.unmsm.ingredient.sauce.Sauce;
 
 /**
@@ -19,5 +20,5 @@ public interface PizzaIngredientFactory {
     Dough createDough();
     Sauce createSauce();
     Chesse createChesse();
-    
+    Pepperoni createPepperoni();
 }

@@ -11,5 +11,7 @@ package com.unmsm.ingredient.dough;
  * @author amartinez <amartinez@novatronic.com>
  */
 public interface Dough {
-
+    default String getName(){
+        return this.getClass().getSimpleName();
+    }
 }

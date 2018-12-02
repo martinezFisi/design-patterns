@@ -10,5 +10,7 @@ package com.unmsm.ingredient.sauce;
  * @author amartinez <amartinez@novatronic.com>
  */
 public interface Sauce {
-    
+    default String getName(){
+        return this.getClass().getSimpleName();
+    }
 }

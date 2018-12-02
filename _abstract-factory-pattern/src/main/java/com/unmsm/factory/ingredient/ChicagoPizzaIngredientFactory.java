@@ -10,6 +10,8 @@ import com.unmsm.ingredient.chesse.Chesse;
 import com.unmsm.ingredient.chesse.ReggianoChesse;
 import com.unmsm.ingredient.dough.Dough;
 import com.unmsm.ingredient.dough.ThinCrustDough;
+import com.unmsm.ingredient.pepperoni.Pepperoni;
+import com.unmsm.ingredient.pepperoni.PeruvianPepperoni;
 import com.unmsm.ingredient.sauce.PlumTomatoSauce;
 import com.unmsm.ingredient.sauce.Sauce;
 
@@ -32,6 +34,11 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory{
     @Override
     public Chesse createChesse() {
         return new ReggianoChesse();
+    }
+
+    @Override
+    public Pepperoni createPepperoni() {
+        return new PeruvianPepperoni();
     }
 
 }

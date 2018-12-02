@@ -10,6 +10,8 @@ import com.unmsm.ingredient.chesse.Chesse;
 import com.unmsm.ingredient.chesse.MozzarellaChesse;
 import com.unmsm.ingredient.dough.Dough;
 import com.unmsm.ingredient.dough.ThickCrustDough;
+import com.unmsm.ingredient.pepperoni.ItallianPepperoni;
+import com.unmsm.ingredient.pepperoni.Pepperoni;
 import com.unmsm.ingredient.sauce.MarinaraSauce;
 import com.unmsm.ingredient.sauce.Sauce;
 
@@ -32,6 +34,11 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory{
     @Override
     public Chesse createChesse() {
         return new MozzarellaChesse();
+    }
+
+    @Override
+    public Pepperoni createPepperoni() {
+        return new ItallianPepperoni();
     }
 
 }

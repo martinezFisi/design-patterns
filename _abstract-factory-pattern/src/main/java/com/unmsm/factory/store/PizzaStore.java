@@ -6,10 +6,24 @@
 
 package com.unmsm.factory.store;
 
+import com.unmsm.product.Pizza;
+
 /**
  * 
  * @author amartinez <amartinez@novatronic.com>
  */
 public abstract class PizzaStore {
+    
+    public abstract Pizza createPizza(String type);
+    
+    public void orderPizza(String type){
+        System.out.println("Order received");
+        Pizza pizza = createPizza(type);
+        pizza.prepare();
+        System.out.println(pizza.toString());
+        pizza.cake();
+        pizza.cut();
+        System.out.println("Order attended");
+    }
     
 }

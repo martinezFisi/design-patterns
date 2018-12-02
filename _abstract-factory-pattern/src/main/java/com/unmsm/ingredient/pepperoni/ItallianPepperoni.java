@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-package com.unmsm.ingredient.chesse;
+package com.unmsm.ingredient.pepperoni;
 
 /**
- * 
- * @author amartinez <amartinez@novatronic.com>
+ *
+ * @author USER
  */
-public class MozzarellaChesse implements Chesse{
+public class ItallianPepperoni implements Pepperoni{
     
 }
