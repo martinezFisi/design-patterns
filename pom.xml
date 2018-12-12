@@ -12,6 +12,7 @@
         <module>factory-method-pattern</module>
         <module>_abstract-factory-pattern</module>
         <module>singleton-pattern</module>
+        <module>remotes-servers-command-pattern</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
