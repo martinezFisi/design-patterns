@@ -13,6 +13,7 @@
         <module>_abstract-factory-pattern</module>
         <module>singleton-pattern</module>
         <module>remotes-servers-command-pattern</module>
+        <module>objectville-diner-command-pattern</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
