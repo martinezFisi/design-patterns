@@ -18,6 +18,7 @@ import com.unmsm.receiver.GarageDoor;
 import com.unmsm.receiver.Light;
 import com.unmsm.receiver.Stereo;
 import com.unmsm.receiver.TV;
+import java.util.ArrayList;
 
 /**
  *
@@ -53,7 +54,8 @@ public class ClientRemoteControl {
         System.out.println("");
         remoteControl.undoButtonWasPushed();
         
-        
+        ArrayList list;
+        Iterator i;
     }
     
 }
