@@ -10,3 +10,5 @@
 /objectville-diner-command-pattern/target/
 /command-pattern/target/
 /adapter-pattern/target/
+/template-method-pattern/target/
+/compareTo-template-method-pattern/target/

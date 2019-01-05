@@ -17,6 +17,8 @@
         <module>command-pattern</module>
         <module>adapter-pattern</module>
         <module>facade-pattern</module>
+        <module>template-method-pattern</module>
+        <module>compareTo-template-method-pattern</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -28,7 +28,7 @@ public class DuckTest {
        
         //Test turkey
         System.out.println("\nThe turkey says...");
-        testDuck(turkeyToDuckAdapter);
+        testDuck(turkeyToDuckAdapter);Object o = null;
         
     }
     
