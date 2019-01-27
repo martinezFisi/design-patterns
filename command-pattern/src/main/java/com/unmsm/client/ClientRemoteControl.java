@@ -53,9 +53,6 @@ public class ClientRemoteControl {
         remoteControl.onButtonWasPushed(2);
         System.out.println("");
         remoteControl.undoButtonWasPushed();
-        
-        ArrayList list;
-        Iterator i;
     }
     
 }
